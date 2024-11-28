@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>图界mbs-漫游</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.118/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://cesium.com/downloads/cesiumjs/releases/1.118/Build/Cesium/Cesium.js"></script>
+    <script type="text/javascript" src="/libs/js/dat.gui.min.js"></script>
+    <script type="text/javascript" src="/libs/js/heatmap.min.js" ></script>
+    <script type="text/javascript" src="/libs/js/initMap.js" ></script>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .buttons{
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div class="buttons">
+        <button id="start">开始漫游</button>
+        <button id="pause">暂停/继续 漫游</button>
+        <button id="exit">停止漫游</button>
+    </div>
+    <script type="text/javascript" src="roam.js" ></script>
+    <script src="index.js"></script>
+</body>
+</body>
